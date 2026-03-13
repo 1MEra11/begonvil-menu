@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Begonvil Menu</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div class="topbar">
+        <div class="brand">
+          <img src="logo.png" alt="Begonvil Logo" class="logo">
+          <div class="brand-text">
+            <h1>Begonvil</h1>
+            <p id="subtitle">Kafe Menüsü</p>
+          </div>
+        </div>
+
+        <div class="lang-switch">
+          <button id="trBtn" class="lang-btn active">TR</button>
+          <button id="enBtn" class="lang-btn">EN</button>
+        </div>
+      </div>
+
+      <nav class="category-slider" aria-label="Menu Categories">
+        <button class="category-btn active" data-category="food" data-tr="Yiyecekler" data-en="Food">Yiyecekler</button>
+        <button class="category-btn" data-category="dessert" data-tr="Tatlılar" data-en="Dessert">Tatlılar</button>
+        <button class="category-btn" data-category="hotDrinks" data-tr="Sıcak İçecekler" data-en="Hot Drinks">Sıcak İçecekler</button>
+        <button class="category-btn" data-category="coldDrinks" data-tr="Soğuk İçecekler" data-en="Cold Drinks">Soğuk İçecekler</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="menu-panel active" id="foodPanel">
+        <div class="menu-card">
+          <h2 data-tr="Yiyecekler" data-en="Food">Yiyecekler</h2>
+          <div class="menu-list" id="foodList"></div>
+        </div>
+      </section>
+
+      <section class="menu-panel" id="dessertPanel">
+        <div class="menu-card">
+          <h2 data-tr="Tatlılar" data-en="Dessert">Tatlılar</h2>
+          <div class="menu-list" id="dessertList"></div>
+        </div>
+      </section>
+
+      <section class="menu-panel" id="hotDrinksPanel">
+        <div class="menu-card">
+          <h2 data-tr="Sıcak İçecekler" data-en="Hot Drinks">Sıcak İçecekler</h2>
+          <div class="menu-list" id="hotDrinksList"></div>
+        </div>
+      </section>
+
+      <section class="menu-panel" id="coldDrinksPanel">
+        <div class="menu-card">
+          <h2 data-tr="Soğuk İçecekler" data-en="Cold Drinks">Soğuk İçecekler</h2>
+          <div class="menu-list" id="coldDrinksList"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
