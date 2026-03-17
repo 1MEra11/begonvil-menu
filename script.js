@@ -1,8 +1,6 @@
 const menuData = {
   food: [
     { tr: "Hot Dog", en: "Hot Dog", price: "500 TL" },
-    { tr: "Tavuk Şnitzel", en: "Chicken Schnitzel", priceTr: "?", priceEn: "?" },
-    { tr: "Köfte", en: "Meatball", priceTr: "?", priceEn: "?" },
     { tr: "Hamburger", en: "Hamburger", price: "550 TL" },
     { tr: "Cheeseburger", en: "Cheeseburger", price: "600 TL" },
     { tr: "Tost", en: "Toast", price: "200 TL" },
